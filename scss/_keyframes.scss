@@ -1,0 +1,93 @@
+@include keyframes(bounce) {
+	0% {
+		bottom:0px;
+		height: #{$max-height * 1}px;
+		@include animation-timing-function(ease-in);
+	}
+	16% { // salta
+		bottom: #{$max-bottom * 1}px;
+		height: 100px;
+		@include animation-timing-function(ease-out);
+	}
+	32% {
+		bottom:0px;
+		height: #{$max-height * 0.9}px;
+		@include animation-timing-function(ease-in);
+	}
+	48% { // salta
+		bottom: #{$max-bottom * 1.5}px;
+		height: 100px;
+		@include animation-timing-function(ease-out);
+	}
+	62% { 
+		bottom:0px;
+		height: #{$max-height * 0.8}px;
+		@include animation-timing-function(ease-in);
+	}
+	78% { // salta
+		bottom: #{$max-bottom * 2}px;
+		height: 100px;
+		@include animation-timing-function(ease-out);
+	}
+	90% { 
+		bottom:0px;
+		height: #{$max-height * 0.7}px;
+		@include animation-timing-function(ease-in);
+	}
+	100% { // salta
+		bottom: #{$max-bottom * 0}px;
+		height: 50px;
+		@include animation-timing-function(ease-out);
+	}
+}
+
+@include keyframes(shadow) {
+	0% {
+		width: 10px;
+		@include border-radius(10px, 5px);
+		margin-left: -5px;
+		@include animation-timing-function(ease-in);
+	}
+	16% {
+		width: 100px;
+		@include border-radius(100px, 5px);
+		margin-left: -50px;
+		@include animation-timing-function(ease-out);
+	}
+	32% {
+		width: 30px;
+		@include border-radius(30px, 5px);
+		margin-left: -15px;
+		@include animation-timing-function(ease-in);
+	}
+	48% {
+		width: 100px;
+		@include border-radius(100px, 5px);
+		margin-left: -50px;		
+		@include animation-timing-function(ease-out);
+	}
+	62% {
+		width: 58px;
+		@include border-radius(50px, 5px);
+		margin-left: -29px;	
+		@include animation-timing-function(ease-in);
+	}
+	78% {
+		width: 100px;
+		@include border-radius(100px, 5px);
+		margin-left: -50px;
+		@include animation-timing-function(ease-out);
+	}
+	90% {
+		width: 80px;
+		@include border-radius(80px, 5px);
+		margin-left: -40px;
+		@include animation-timing-function(ease-in);
+	}
+	100% {
+		width: 100px;
+		@include border-radius(100px, 5px);
+		margin-left: -50px;
+		@include animation-timing-function(ease-out);
+	}
+}

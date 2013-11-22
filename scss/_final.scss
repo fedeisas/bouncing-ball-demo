@@ -1,0 +1,38 @@
+.box {
+	position: relative;
+	margin: 400px auto 0px;
+
+	.ball {
+		z-index: 3;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		left: 50%;
+		margin-left: -50px;
+
+		@include background-image(
+			radial-gradient(
+				10% 24%, 
+				circle, 
+				lighten($ball-color, 20%), 
+				darken($ball-color, 20%) 70%
+			)
+		);
+		@include border-radius(55px);
+		@include animation(bounce $animation-duration infinite);
+	}
+
+	.shadow {
+		position: absolute;
+		height: 5px;
+		width: 100px;
+		background: rgba(0, 0, 0, 0.4);
+		bottom: -6px;
+		left: 50%;
+
+		@include box-shadow(
+			0px 0px 8px 2px rgba(0,0,0,.4)
+		);
+		@include animation(shadow $animation-duration infinite);
+	}
+}

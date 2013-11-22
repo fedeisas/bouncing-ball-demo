@@ -1,0 +1,500 @@
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.13.alpha.10/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+@-moz-keyframes bounce {
+  /* line 2, ../scss/_keyframes.scss */
+  0% {
+    bottom: 0px;
+    height: 100px;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 7, ../scss/_keyframes.scss */
+  16% {
+    bottom: 200px;
+    height: 100px;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 12, ../scss/_keyframes.scss */
+  32% {
+    bottom: 0px;
+    height: 90px;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 17, ../scss/_keyframes.scss */
+  48% {
+    bottom: 300px;
+    height: 100px;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 22, ../scss/_keyframes.scss */
+  62% {
+    bottom: 0px;
+    height: 80px;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 27, ../scss/_keyframes.scss */
+  78% {
+    bottom: 400px;
+    height: 100px;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 32, ../scss/_keyframes.scss */
+  90% {
+    bottom: 0px;
+    height: 70px;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 37, ../scss/_keyframes.scss */
+  100% {
+    bottom: 0px;
+    height: 50px;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+@-webkit-keyframes bounce {
+  /* line 2, ../scss/_keyframes.scss */
+  0% {
+    bottom: 0px;
+    height: 100px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 7, ../scss/_keyframes.scss */
+  16% {
+    bottom: 200px;
+    height: 100px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 12, ../scss/_keyframes.scss */
+  32% {
+    bottom: 0px;
+    height: 90px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 17, ../scss/_keyframes.scss */
+  48% {
+    bottom: 300px;
+    height: 100px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 22, ../scss/_keyframes.scss */
+  62% {
+    bottom: 0px;
+    height: 80px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 27, ../scss/_keyframes.scss */
+  78% {
+    bottom: 400px;
+    height: 100px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 32, ../scss/_keyframes.scss */
+  90% {
+    bottom: 0px;
+    height: 70px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 37, ../scss/_keyframes.scss */
+  100% {
+    bottom: 0px;
+    height: 50px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+@keyframes bounce {
+  /* line 2, ../scss/_keyframes.scss */
+  0% {
+    bottom: 0px;
+    height: 100px;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 7, ../scss/_keyframes.scss */
+  16% {
+    bottom: 200px;
+    height: 100px;
+    -moz-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 12, ../scss/_keyframes.scss */
+  32% {
+    bottom: 0px;
+    height: 90px;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 17, ../scss/_keyframes.scss */
+  48% {
+    bottom: 300px;
+    height: 100px;
+    -moz-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 22, ../scss/_keyframes.scss */
+  62% {
+    bottom: 0px;
+    height: 80px;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 27, ../scss/_keyframes.scss */
+  78% {
+    bottom: 400px;
+    height: 100px;
+    -moz-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 32, ../scss/_keyframes.scss */
+  90% {
+    bottom: 0px;
+    height: 70px;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 37, ../scss/_keyframes.scss */
+  100% {
+    bottom: 0px;
+    height: 50px;
+    -moz-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+@-moz-keyframes shadow {
+  /* line 45, ../scss/_keyframes.scss */
+  0% {
+    width: 10px;
+    -moz-border-radius: 10px / 5px;
+    border-radius: 10px / 5px;
+    margin-left: -5px;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 51, ../scss/_keyframes.scss */
+  16% {
+    width: 100px;
+    -moz-border-radius: 100px / 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 57, ../scss/_keyframes.scss */
+  32% {
+    width: 30px;
+    -moz-border-radius: 30px / 5px;
+    border-radius: 30px / 5px;
+    margin-left: -15px;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 63, ../scss/_keyframes.scss */
+  48% {
+    width: 100px;
+    -moz-border-radius: 100px / 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 69, ../scss/_keyframes.scss */
+  62% {
+    width: 58px;
+    -moz-border-radius: 50px / 5px;
+    border-radius: 50px / 5px;
+    margin-left: -29px;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 75, ../scss/_keyframes.scss */
+  78% {
+    width: 100px;
+    -moz-border-radius: 100px / 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 81, ../scss/_keyframes.scss */
+  90% {
+    width: 80px;
+    -moz-border-radius: 80px / 5px;
+    border-radius: 80px / 5px;
+    margin-left: -40px;
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 87, ../scss/_keyframes.scss */
+  100% {
+    width: 100px;
+    -moz-border-radius: 100px / 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -moz-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+@-webkit-keyframes shadow {
+  /* line 45, ../scss/_keyframes.scss */
+  0% {
+    width: 10px;
+    -webkit-border-radius: 10px 5px;
+    border-radius: 10px / 5px;
+    margin-left: -5px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 51, ../scss/_keyframes.scss */
+  16% {
+    width: 100px;
+    -webkit-border-radius: 100px 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 57, ../scss/_keyframes.scss */
+  32% {
+    width: 30px;
+    -webkit-border-radius: 30px 5px;
+    border-radius: 30px / 5px;
+    margin-left: -15px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 63, ../scss/_keyframes.scss */
+  48% {
+    width: 100px;
+    -webkit-border-radius: 100px 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 69, ../scss/_keyframes.scss */
+  62% {
+    width: 58px;
+    -webkit-border-radius: 50px 5px;
+    border-radius: 50px / 5px;
+    margin-left: -29px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 75, ../scss/_keyframes.scss */
+  78% {
+    width: 100px;
+    -webkit-border-radius: 100px 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 81, ../scss/_keyframes.scss */
+  90% {
+    width: 80px;
+    -webkit-border-radius: 80px 5px;
+    border-radius: 80px / 5px;
+    margin-left: -40px;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 87, ../scss/_keyframes.scss */
+  100% {
+    width: 100px;
+    -webkit-border-radius: 100px 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+@keyframes shadow {
+  /* line 45, ../scss/_keyframes.scss */
+  0% {
+    width: 10px;
+    -moz-border-radius: 10px / 5px;
+    -webkit-border-radius: 10px 5px;
+    border-radius: 10px / 5px;
+    margin-left: -5px;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 51, ../scss/_keyframes.scss */
+  16% {
+    width: 100px;
+    -moz-border-radius: 100px / 5px;
+    -webkit-border-radius: 100px 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -moz-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 57, ../scss/_keyframes.scss */
+  32% {
+    width: 30px;
+    -moz-border-radius: 30px / 5px;
+    -webkit-border-radius: 30px 5px;
+    border-radius: 30px / 5px;
+    margin-left: -15px;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 63, ../scss/_keyframes.scss */
+  48% {
+    width: 100px;
+    -moz-border-radius: 100px / 5px;
+    -webkit-border-radius: 100px 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -moz-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 69, ../scss/_keyframes.scss */
+  62% {
+    width: 58px;
+    -moz-border-radius: 50px / 5px;
+    -webkit-border-radius: 50px 5px;
+    border-radius: 50px / 5px;
+    margin-left: -29px;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 75, ../scss/_keyframes.scss */
+  78% {
+    width: 100px;
+    -moz-border-radius: 100px / 5px;
+    -webkit-border-radius: 100px 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -moz-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+
+  /* line 81, ../scss/_keyframes.scss */
+  90% {
+    width: 80px;
+    -moz-border-radius: 80px / 5px;
+    -webkit-border-radius: 80px 5px;
+    border-radius: 80px / 5px;
+    margin-left: -40px;
+    -moz-animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+
+  /* line 87, ../scss/_keyframes.scss */
+  100% {
+    width: 100px;
+    -moz-border-radius: 100px / 5px;
+    -webkit-border-radius: 100px 5px;
+    border-radius: 100px / 5px;
+    margin-left: -50px;
+    -moz-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; } }
+/* line 6, ../scss/main.scss */
+.box {
+  position: relative;
+  margin: 400px auto 0px; }
+  /* line 10, ../scss/main.scss */
+  .box .ball {
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    background-image: -moz-radial-gradient(10% 24%, circle, #78f527, #204c04 70%);
+    background-image: -o-radial-gradient(10% 24%, circle, #78f527, #204c04 70%);
+    background-image: -webkit-radial-gradient(10% 24%, circle, #78f527, #204c04 70%);
+    background-image: radial-gradient(10% 24%, circle, #78f527, #204c04 70%);
+    -moz-border-radius: 55px;
+    -webkit-border-radius: 55px;
+    border-radius: 55px;
+    -moz-animation: bounce 7s infinite;
+    -webkit-animation: bounce 7s infinite;
+    animation: bounce 7s infinite; }
+  /* line 30, ../scss/main.scss */
+  .box .shadow {
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background: rgba(0, 0, 0, 0.4);
+    bottom: -6px;
+    left: 50%;
+    -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+    -moz-animation: shadow 7s infinite;
+    -webkit-animation: shadow 7s infinite;
+    animation: shadow 7s infinite; }

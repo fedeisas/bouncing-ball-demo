@@ -1,0 +1,13 @@
+@import "compass";
+@import "compass/reset";
+@import "variables";
+@import "keyframes";
+
+.box {
+	position: relative;
+	margin: 400px auto 0px;
+
+	.ball {}
+
+	.shadow {}
+}

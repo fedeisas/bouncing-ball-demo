@@ -1,0 +1,30 @@
+@import "compass";
+@import "compass/reset";
+@import "variables";
+@import "keyframes";
+
+.box {
+	position: relative;
+	margin: 400px auto 0px;
+
+	.ball {
+		z-index: 3;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		bottom:0px;
+		left: 50%;
+		margin-left: -50px;
+		background: #FFF;
+	}
+
+	.shadow {
+		position: absolute;
+		height: 5px;
+		width: 100px;
+		background: rgba(0, 0, 0, 0.4);
+		bottom: -6px;
+		margin-left: -50px;
+		left: 50%;
+	}
+}
