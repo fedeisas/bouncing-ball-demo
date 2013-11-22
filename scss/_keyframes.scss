@@ -1,32 +1,34 @@
 @include keyframes(jump) {
     0% {
 		bottom: #{$max-bottom * 0}px;
+		height: #{$max-height * 0.9}px;
 		@include animation-timing-function(ease-in);
     }
     50% {
 		bottom: #{$max-bottom * 1.4}px;
-		height: #{$max-height * 1.2}px;
+		height: #{$max-height * 1}px;
 		@include animation-timing-function(ease-out);
     }
     55% {
 		bottom: #{$max-bottom * 1.6}px;
-		height: #{$max-height}px;
+		height: #{$max-height * 1}px;
 		@include border-radius(70px, 60px);
 		@include animation-timing-function(ease-in);
     }
     65% {
 		bottom: #{$max-bottom * 1.1}px;
-		height: #{$max-height * 1.2}px;
+		height: #{$max-height * 1}px;
 		@include border-radius(50%);
 		@include animation-timing-function(ease-out);
     }
     95% {
 		bottom: #{$max-bottom * 0}px;
-		height: #{$max-height * 0.9}px;
+		height: #{$max-height * 0.8}px;
 		@include animation-timing-function(ease-in);
     }
     100% {
 		bottom: #{$max-bottom * 0}px;
+		height: #{$max-height * 0.9}px;
 		@include animation-timing-function(ease-in);
     }
 }

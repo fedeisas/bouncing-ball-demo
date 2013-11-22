@@ -58,17 +58,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   /* line 2, ../scss/_keyframes.scss */
   0% {
     bottom: 0px;
+    height: 90px;
     -moz-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 6, ../scss/_keyframes.scss */
+  /* line 7, ../scss/_keyframes.scss */
   50% {
     bottom: 280px;
-    height: 120px;
+    height: 100px;
     -moz-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 11, ../scss/_keyframes.scss */
+  /* line 12, ../scss/_keyframes.scss */
   55% {
     bottom: 320px;
     height: 100px;
@@ -77,42 +78,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -moz-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 17, ../scss/_keyframes.scss */
+  /* line 18, ../scss/_keyframes.scss */
   65% {
     bottom: 220.0px;
-    height: 120px;
+    height: 100px;
     -moz-border-radius: 50%;
     border-radius: 50%;
     -moz-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 23, ../scss/_keyframes.scss */
+  /* line 24, ../scss/_keyframes.scss */
   95% {
     bottom: 0px;
-    height: 90px;
+    height: 80px;
     -moz-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 28, ../scss/_keyframes.scss */
+  /* line 29, ../scss/_keyframes.scss */
   100% {
     bottom: 0px;
+    height: 90px;
     -moz-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
 @-webkit-keyframes jump {
   /* line 2, ../scss/_keyframes.scss */
   0% {
     bottom: 0px;
+    height: 90px;
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 6, ../scss/_keyframes.scss */
+  /* line 7, ../scss/_keyframes.scss */
   50% {
     bottom: 280px;
-    height: 120px;
+    height: 100px;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 11, ../scss/_keyframes.scss */
+  /* line 12, ../scss/_keyframes.scss */
   55% {
     bottom: 320px;
     height: 100px;
@@ -121,44 +124,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 17, ../scss/_keyframes.scss */
+  /* line 18, ../scss/_keyframes.scss */
   65% {
     bottom: 220.0px;
-    height: 120px;
+    height: 100px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 23, ../scss/_keyframes.scss */
+  /* line 24, ../scss/_keyframes.scss */
   95% {
     bottom: 0px;
-    height: 90px;
+    height: 80px;
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 28, ../scss/_keyframes.scss */
+  /* line 29, ../scss/_keyframes.scss */
   100% {
     bottom: 0px;
+    height: 90px;
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
 @keyframes jump {
   /* line 2, ../scss/_keyframes.scss */
   0% {
     bottom: 0px;
+    height: 90px;
     -moz-animation-timing-function: ease-in;
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 6, ../scss/_keyframes.scss */
+  /* line 7, ../scss/_keyframes.scss */
   50% {
     bottom: 280px;
-    height: 120px;
+    height: 100px;
     -moz-animation-timing-function: ease-out;
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 11, ../scss/_keyframes.scss */
+  /* line 12, ../scss/_keyframes.scss */
   55% {
     bottom: 320px;
     height: 100px;
@@ -169,10 +174,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 17, ../scss/_keyframes.scss */
+  /* line 18, ../scss/_keyframes.scss */
   65% {
     bottom: 220.0px;
-    height: 120px;
+    height: 100px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -180,22 +185,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 23, ../scss/_keyframes.scss */
+  /* line 24, ../scss/_keyframes.scss */
   95% {
     bottom: 0px;
-    height: 90px;
+    height: 80px;
     -moz-animation-timing-function: ease-in;
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 28, ../scss/_keyframes.scss */
+  /* line 29, ../scss/_keyframes.scss */
   100% {
     bottom: 0px;
+    height: 90px;
     -moz-animation-timing-function: ease-in;
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
 @-moz-keyframes shrink {
-  /* line 35, ../scss/_keyframes.scss */
+  /* line 37, ../scss/_keyframes.scss */
   0% {
     margin-left: -5px;
     width: 10px;
@@ -204,7 +210,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -moz-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 41, ../scss/_keyframes.scss */
+  /* line 43, ../scss/_keyframes.scss */
   50% {
     margin-left: -50px;
     width: 100px;
@@ -213,7 +219,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -moz-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 47, ../scss/_keyframes.scss */
+  /* line 49, ../scss/_keyframes.scss */
   100% {
     margin-left: -5px;
     width: 10px;
@@ -222,7 +228,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -moz-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
 @-webkit-keyframes shrink {
-  /* line 35, ../scss/_keyframes.scss */
+  /* line 37, ../scss/_keyframes.scss */
   0% {
     margin-left: -5px;
     width: 10px;
@@ -231,7 +237,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 41, ../scss/_keyframes.scss */
+  /* line 43, ../scss/_keyframes.scss */
   50% {
     margin-left: -50px;
     width: 100px;
@@ -240,7 +246,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 47, ../scss/_keyframes.scss */
+  /* line 49, ../scss/_keyframes.scss */
   100% {
     margin-left: -5px;
     width: 10px;
@@ -249,7 +255,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
 @keyframes shrink {
-  /* line 35, ../scss/_keyframes.scss */
+  /* line 37, ../scss/_keyframes.scss */
   0% {
     margin-left: -5px;
     width: 10px;
@@ -260,7 +266,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; }
 
-  /* line 41, ../scss/_keyframes.scss */
+  /* line 43, ../scss/_keyframes.scss */
   50% {
     margin-left: -50px;
     width: 100px;
@@ -271,7 +277,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
 
-  /* line 47, ../scss/_keyframes.scss */
+  /* line 49, ../scss/_keyframes.scss */
   100% {
     margin-left: -5px;
     width: 10px;
@@ -284,13 +290,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 6, ../scss/main.scss */
 .box {
   position: relative;
+  width: 100%;
   margin: 400px auto 0px; }
-  /* line 10, ../scss/main.scss */
+  /* line 11, ../scss/main.scss */
   .box .ball {
     z-index: 3;
     width: 100px;
     height: 100px;
     position: absolute;
+    bottom: 0px;
     left: 50%;
     margin-left: -50px;
     background-image: -moz-radial-gradient(10% 24%, circle, #78f527, #204c04 70%);
@@ -303,14 +311,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     -moz-animation: jump 1s infinite;
     -webkit-animation: jump 1s infinite;
     animation: jump 1s infinite; }
-  /* line 30, ../scss/main.scss */
+  /* line 32, ../scss/main.scss */
   .box .shadow {
     position: absolute;
     height: 5px;
     width: 100px;
     background: rgba(0, 0, 0, 0.4);
-    bottom: -6px;
+    bottom: -10px;
     left: 50%;
+    margin-left: -50px;
     -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
